@@ -1,6 +1,10 @@
 {
   // 
   // ::::::: 1-10 Union and Intersection types :::::::
+  // In JavaScript || refers to OR
+  // In TypeScript | refers to Union
+  // In JavaScript && refers to AND
+  // In TypeScript & refers to Intersection
 
   // Union Type
   type FrontendDeveloper = 'fakibazDeveloper' | 'juniorDeveloper';
