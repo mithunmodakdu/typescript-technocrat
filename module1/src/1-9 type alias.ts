@@ -1,7 +1,7 @@
 {
 // 
 // ::::::::: 1-9 Type alias in typescript ::::::::::
-// Type alias basic syntex: type TypeName = data type
+// Type alias basic syntax: type TypeName = data type
 // TypeName should start with capital letter
 
 // Type alias in case of object
