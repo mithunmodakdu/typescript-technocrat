@@ -1,7 +1,8 @@
 {
   // :::: 3-2: Inheritance in OOP ::::
   
-  class Parent{
+  // Creating Parent class named Person
+  class Person{
     name: string;
     age: number;
     address: string
@@ -18,7 +19,8 @@
     }
   }
 
-  class Student extends Parent{
+  // Creating Child class named Student
+  class Student extends Person{
     constructor(name:string, age:number, address:string){
      super(name, age, address)
     }
@@ -27,7 +29,9 @@
   const student1 = new Student('Student Mukta', 20, 'Gouripur')
   student1.getSleepTime(10)
 
-  class Teacher extends Parent{
+
+  // Creating Child class named Teacher
+  class Teacher extends Person{
     designation: string
 
     constructor(name:string, age:number, address:string, designation: string ){
